@@ -11382,3 +11382,4 @@ input.check-toggle-round-flat:checked + label:after {
   width: 50%;
   margin: auto;
 }
+
