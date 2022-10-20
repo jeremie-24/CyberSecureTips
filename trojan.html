@@ -18,29 +18,16 @@
         rel="stylesheet" type="text/css" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous">
+        </script>
+    <script src="js/nav.js"></script>
+    <script src="js/footer.js"></script>
 </head>
 
 <body>
     <!-- Navigation-->
-    <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
-        <div class="container px-4 px-lg-5">
-            <a class="navbar-brand" href="index.html">CyberSecureTips</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
-                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                Menu
-                <i class="fas fa-bars"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ms-auto py-4 py-lg-0">
-                    <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="about.html">About</a></li>
-                    <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="virus.html">Virus</a></li>
-                    <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="passwordSecurity.html">Password Security</a></li>
-                    <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="post.html">Sample Post</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+    <nav id="nav"></nav>
     <!-- Page Header-->
     <header class="masthead"
         style="background-image: url('https://miro.medium.com/max/730/1*j3VjKgMeTXnymUKYKZ0wXw.png')">
@@ -70,13 +57,22 @@
                         <iframe class="video" height="350px" src="https://www.youtube.com/embed/UpMwG2PBbiM">
                         </iframe>
                     </div>
-                    <p>A Trojan horse is a computer virus that web users download unknowingly. It dissimulates itself as a legitimate program, but it executes hidden functions that endanger your device and your sensitive data. Unlike other viruses, this one doesn’t spread across the network as fast since it can’t reproduce itself. </p>
+                    <p>A Trojan horse is a computer virus that web users download unknowingly. It dissimulates itself as
+                        a legitimate program, but it executes hidden functions that endanger your device and your
+                        sensitive data. Unlike other viruses, this one doesn’t spread across the network as fast since
+                        it can’t reproduce itself. </p>
                     <a href="https://enterprise.comodo.com/images/what-is-the-trojan-horse-virus.webp"><img
                             class="img-fluid smalPostImage"
                             src="https://enterprise.comodo.com/images/what-is-the-trojan-horse-virus.webp"
                             alt="..." /></a>
                     <h2 class="section-heading">Origins of the Name</h2>
-                    <p>The name comes from the strategy the Greeks used against their enemies in the Trojan War. The Greeks faked their retreat and left a giant wooden horse behind. The Trojans accepted it as a victory trophy and brought it inside their city, but they didn’t know that the Greeks were inside it. In the night, the Greeks opened the gates to the rest of their army. Thanks to that, they were able to destroy the city and win the war. The Trojan Virus does the same thing. It looks inoffensive like a wooden horse, but it can open a backdoor in your device and it can cause serious damage to it.</p>
+                    <p>The name comes from the strategy the Greeks used against their enemies in the Trojan War. The
+                        Greeks faked their retreat and left a giant wooden horse behind. The Trojans accepted it as a
+                        victory trophy and brought it inside their city, but they didn’t know that the Greeks were
+                        inside it. In the night, the Greeks opened the gates to the rest of their army. Thanks to that,
+                        they were able to destroy the city and win the war. The Trojan Virus does the same thing. It
+                        looks inoffensive like a wooden horse, but it can open a backdoor in your device and it can
+                        cause serious damage to it.</p>
                     <a
                         href="https://images.twinkl.co.uk/tr/image/upload/t_illustration/illustation/trojan-horse-showing-soldiers.png"><img
                             class="img-fluid postImage"
@@ -132,26 +128,17 @@
                         <br>
                         <a href="https://en.wikipedia.org/wiki/Trojan_Horse">Wikipedia</a>
                         <br>
-                        <a href="https://enterprise.comodo.com/what-is-the-trojan-horse-virus.php">Comodo Cybersecurity</a>
+                        <a href="https://enterprise.comodo.com/what-is-the-trojan-horse-virus.php">Comodo
+                            Cybersecurity</a>
                         <br>
-                       
+
                     </p>
                 </div>
             </div>
         </div>
     </article>
     <!-- Footer-->
-    <footer class="border-top">
-        <div class="container px-4 px-lg-5">
-            <div class="row gx-4 gx-lg-5 justify-content-center">
-                <div class="col-md-10 col-lg-8 col-xl-7">
-
-                    <div class="small text-center text-muted fst-italic">Copyright &copy;Jérémie Couturier, Oliver
-                        Bourdel and Anton S. Messmer CyberSecureTips 2022</div>
-                </div>
-            </div>
-        </div>
-    </footer>
+    <footer id="footer"></footer>
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Core theme JS-->
