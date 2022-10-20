@@ -18,6 +18,7 @@ let content = `
                 <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="virus.html">Virus</a></li>
                 <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="passwordSecurity.html">Password
                         Security</a></li>
+                <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="socialEngineering.html">Social Engineering</a></li>
             </ul>
         </div>
     </div>
