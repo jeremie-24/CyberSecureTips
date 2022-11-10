@@ -11383,3 +11383,6 @@ input.check-toggle-round-flat:checked + label:after {
   margin: auto;
 }
 
+.glossaryLink{
+  color: #155c75;
+}
