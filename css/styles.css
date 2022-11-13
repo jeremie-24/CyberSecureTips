@@ -11386,3 +11386,8 @@ input.check-toggle-round-flat:checked + label:after {
 .glossaryLink{
   color: #155c75;
 }
+.small-section-heading {
+  font-size: 1.9rem;
+  font-weight: 600;
+  margin-top: 3.75rem;
+}
