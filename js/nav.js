@@ -19,7 +19,7 @@ let content = `
                 <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="security.html">Security</a></li>
                 <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="socialEngineering.html">Social Engineering</a></li>
                 <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="glossary.html">Glossary</a></li>
-                
+                <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="conclusion.html">Conclusion</a></li>
             </ul>
         </div>
     </div>
